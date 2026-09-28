@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClassPulse Attendance</title>
+    <meta name="description" content="Production-quality attendance management web application for teachers and students with real-time tracking, RLS security, and session management." />
+    <meta property="og:title" content="ClassPulse Attendance" />
+    <meta property="og:description" content="Production-quality attendance management web application for teachers and students with real-time tracking, RLS security, and session management." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Self-hosted font definition: Inter with robust fallback to system institutional sans fonts -->
+    <style>
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Inter Regular'), local('Inter-Regular'), local('Inter');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: local('Inter Medium'), local('Inter-Medium');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: local('Inter SemiBold'), local('Inter-SemiBold');
+      }
+    </style>
+  </head>
+  <body class="bg-[#F7F8FA] text-[#1B2430] antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

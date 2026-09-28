@@ -1,0 +1,6 @@
+{
+  "name": "ClassPulse Attendance",
+  "description": "Production-quality attendance management web application for teachers and students with real-time tracking, RLS security, and session management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
